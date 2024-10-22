@@ -35,9 +35,11 @@ void mostraVacina(Vacina vc){
 
 void mostraDadosCao(Cao dog){
     //imprime dados de um cão passado por valor
-    printf("\n Nome: %d ",dog.nome);
+    printf("\n Nome: %s ",dog.nome[0]);
     printf("\n Idade: %d ",dog.idade);
     mostraData(dog.dNascimento);
+    printf("\n teste: %d", sizeof(dog.carterinha));
+    sizeof(dog.carterinha);
     //loop para imprimir carteirinha
 }
 
@@ -69,6 +71,7 @@ int main()
 
     //implemente o controle de vacina de 4 cães da família X;
     Data Hoje = {04,10,2024};
-    mostraData(Hoje);
+    Cao tofu = {"Tofu", 5, {04,10,2024}};
+    mostraDadosCao(tofu);    
     exit(0);
 }

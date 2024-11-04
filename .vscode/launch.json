@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/dnied/OneDrive/Documentos/GitHub/jogo-da-forca-c/Exemplos",
-      "program": "c:/Users/dnied/OneDrive/Documentos/GitHub/jogo-da-forca-c/Exemplos/build/Debug/outDebug",
+      "cwd": "c:/Users/dnied/OneDrive/Documentos/GitHub/jogo-da-forca-c/Trabalho 2 - Vacinas",
+      "program": "c:/Users/dnied/OneDrive/Documentos/GitHub/jogo-da-forca-c/Trabalho 2 - Vacinas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
